@@ -6,3 +6,10 @@
 
 # Checkpoint 2
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/1951ff22-7f9a-4874-b975-ee1097579ce3" />
+
+# Checkpoint 3
+#### Button sebelum di klik
+<img width="945" alt="Screenshot 2025-04-22 001925" src="https://github.com/user-attachments/assets/acb86ccf-6117-4cf9-a567-1ced408ff1be" />
+
+#### Button saat di klik
+<img width="945" alt="Screenshot 2025-04-22 001953" src="https://github.com/user-attachments/assets/f7275213-81a5-4ce3-83b1-6d35e84eefb7" />

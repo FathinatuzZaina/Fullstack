@@ -1,0 +1,222 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url('seventeen5.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: lighten;
+    color: #000000;
+    line-height: 1.8;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 18px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #F7CAC9;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Container */
+.container {
+    padding: 120px 30px 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 80px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 12px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.section-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Display Examples */
+.display-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.display-box {
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.display-box:hover {
+    transform: translateY(-5px);
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+/* Position Example */
+.position-example {
+    position: relative;
+    height: 250px;
+    background-color: rgba(240, 240, 240, 0.7);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.static-box,
+.absolute-box,
+.fixed-box {
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 45%;
+}
+
+.static-box {
+    position: relative;
+    background-color: #92A8D1;
+    color: #fff;
+    margin: 10px;
+    display: inline-block;
+}
+
+.absolute-box {
+    position: relative;
+    background-color: #F7CAC9;
+    color: #333;
+    margin: 10px;
+    display: inline-block;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #CBAACB;
+    color: #fff;
+}
+
+/* Overflow */
+.overflow-example {
+    max-height: 150px;
+    overflow: auto;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Image Styling */
+.image {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.08);
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background-color: #92A8D1;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #6D89B6;
+    transform: scale(1.05);
+}
